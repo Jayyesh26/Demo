@@ -1,0 +1,114 @@
+/* body{
+    background-image:url("/static/img/bg.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: cover;
+} */
+
+.sg {
+    width: 100%;
+    margin: 0px;
+}
+
+.sign {
+    background-image: url("../img/tech.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: fit-content;
+    background-color: rgb(253, 253, 253);
+    font-style: 'Heebo', 'Ramaraja', sans-serif;
+    color: black;
+    border: 1px outsets rgb(251, 250, 250);
+    font-size: 25px;
+    text-align: center;
+    top: 35%;
+    left: 50%;
+    right: 50%;
+    /* width: 300px; */
+    /* position: fixed; */
+    padding-bottom: 15px;
+    padding-top: 20px;
+    margin-bottom: 2%;
+    margin-left: 2%;
+
+}
+
+.log {
+    background-image: url("/static/img/cyber-security.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: cover;
+    font-style: oblique;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    border: 1px outsets rgb(251, 250, 250);
+    width:100%;
+    top: 50%;
+    left: 50%;
+    right: 20%;
+    height: 850px;
+    padding-bottom: 15px;
+    padding-top: 240px;
+    margin-bottom: 2%;
+}
+
+label {
+    display: block;
+}
+
+label:hover {
+    background: transparents;
+}
+
+.log .pass,
+.name1 {
+    text-align: center;
+    color: blue;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.msg,
+.sub {
+    color: royalblue;
+    /* background-color: white; */
+    border-radius: 20px;
+    border: 2px inset black;
+    padding: 6px;
+}
+
+.msg,
+.sub,
+.name1:hover {
+    background-color: transparent;
+    color: rgb(1, 1, 1);
+}
+
+.pass:hover {
+    background-color: transparent;
+}
+
+.sub {
+    background-color: transparent;
+    margin: 20px 20px 20px 0px;
+    border-radius: 20px;
+    padding: 6px;
+}
+
+.sub:hover{
+    /* background-color: #5bd46b; */
+    color: rgb(25, 25, 234);
+    background: transparent;
+}
+
+.cm {
+    text-align: center;
+    color: black;
+}
+
+.cm:hover {
+    background-color: transparent;
+}
